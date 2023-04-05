@@ -1,0 +1,38 @@
+{
+  "name": "HATSUNE-MIKU",
+  "website": "https://github.com/HATSUNE-MIKU.git",
+  "description": "Super Bot WhatsApp",
+  "repository": "https://github.com/OFC-YOVANI/HATSUNE-MIKU.git",
+  "logo": "https://i.imgur.com/AmzlKVi.jpeg",
+  "success_url": "https://github.com/OFC-YOVANI/HATSUNE-MIKU",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "bot",
+    "bots",
+    "bot",
+    "spanish",
+    "whatsapp",
+    "termux",
+    "shadow",
+    "multi-device",
+    "md",
+    "whatsappbot",
+    "oficial",
+    "whatsapp-md",
+    "HADES-BOT-MDbot",
+    "miku-bot",
+    "HADES-BOT-MD-bot-md"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
